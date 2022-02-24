@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Advertisements>
+	<Ad>
+		<ImageUrl>Images/Ad1.png</ImageUrl>
+		<NavigateUrl>https://www.microsoft.com</NavigateUrl>
+		<AlternateText>Microsoft Product</AlternateText>
+		<Impressions>"10"</Impressions>
+		<KeyWord>WebSites</KeyWord>
+	</Ad>
+	<Ad>
+		<ImageUrl>Images/Ad2.png</ImageUrl>
+		<NavigateUrl>https://www.apple.com</NavigateUrl>
+		<AlternateText>Apple Product</AlternateText>
+		<Impressions>"30"</Impressions>
+		<KeyWord>WebSites</KeyWord>
+	</Ad>
+	<Ad>
+		<ImageUrl>Images/Ad3.png</ImageUrl>
+		<NavigateUrl>https://www.google.com</NavigateUrl>
+		<AlternateText>Google Product</AlternateText>
+		<Impressions>"10"</Impressions>
+		<KeyWord>WebSites</KeyWord>
+</Ad>
+</Advertisements>

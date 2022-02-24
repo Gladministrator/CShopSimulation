@@ -1,0 +1,212 @@
+﻿body {
+    margin: 0;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.banner img {
+    margin-bottom: 5px;
+    height: 120px;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+form {
+    width: 1024px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    row-gap: 15px;
+}
+
+.lg-font {
+    font-size: 1.5rem;
+}
+
+.nav-bar {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.menu-item-style {
+    background-color: forestgreen;
+    border: 1px solid black;
+    margin-right: 5px;
+}
+
+.logged-user {
+    color: midnightblue;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+    font-size: 1.3rem;
+}
+
+.invalid-label {
+    color: red;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.button-style {
+    border: 2px solid black;
+    background-color: mediumaquamarine;
+    padding: 10px;
+    font-size: 1.25rem;
+}
+
+.profile-container {
+    font-size: 1.5rem;
+    padding: 20px;
+    border: 5px solid white;
+}
+
+    .profile-container h1 {
+        text-align: center;
+        margin-top: 0;
+    }
+
+.profile-buttons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.content-container {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.landing-image-link {
+    height: 200px;
+    border: 3px solid green;
+}
+
+#AdrMaster, #AdrMaster img {
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.logout-container {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.order-title {
+    text-align: center;
+    color: seagreen;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-selections-container {
+    display: flex;
+    font-size: 1.4rem;
+    column-gap: 10px;
+}
+
+.order-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    row-gap: 15px;
+}
+
+.order-item-checkbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .order-item-checkbox label {
+        flex-basis: 55%;
+    }
+
+    .order-item-checkbox input {
+        flex-basis: 35%;
+    }
+
+.total-container {
+    margin-top: 10px;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+select {
+    background-color: cornflowerblue;
+    font-size: 1.1rem;
+    box-shadow: none;
+    border: 1px solid orange;
+    padding: 2px;
+}
+
+.receipt-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+    padding: 10px;
+    width: 575px;
+    font-size: 1.2rem;
+}
+
+.receipt-container h2, .receipt-container h3, .receipt-container h4 {
+    margin: 0 0 10px 0;
+}
+
+.receipt-ordered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    width: 525px;
+}

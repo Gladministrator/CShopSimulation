@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Online.Master.cs" Inherits="FinalProject.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Final Project</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Styles/MasterPageStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="form-container">
+            <div class="banner">
+                <img src="Images/masterpage1.png" />
+                <asp:AdRotator ID="AdrMaster" runat="server" AdvertisementFile="~/XMLADFILE.xml" Target="_blank" />
+            </div>
+                <asp:Panel ID="NavPanel" runat="server" Visible="true" CssClass="nav-bar">
+                    <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+                        <Items>
+                            <asp:MenuItem Text="Home" Value="LandingPage" NavigateUrl="LandingPage.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Profile" Value="Profile" NavigateUrl="Profile.aspx">
+                                <asp:MenuItem Text="Change Password" Value="Change Password" NavigateUrl="ChangePassword.aspx"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Order" Value="OrderPage" NavigateUrl="OrderPage.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Logout" Value="Logout" NavigateUrl="Logout.aspx"></asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                    <asp:Label ID="LoggedUserLabel" runat="server" Text="" CssClass="logged-user"></asp:Label>
+                </asp:Panel>
+            <div class="content-container">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div>
+                <img src="Images/Footer.PNG" />
+            </div>
+        </div>
+    </form>
+</body>
+</html>
