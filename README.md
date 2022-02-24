@@ -9,7 +9,8 @@ A simple app built with ASP.NET 4.7 Webforms to simulate a user accessing a shop
   - CSS
 
 ## Application Information
-This app allows a user to navigate through a shop-like application.
+This is an app which is simulating a shopping experience for a user. The app
+has fixed values as there is no database being used.
 
 ### Solutions and Architecture
 
@@ -21,24 +22,24 @@ After logging in with the correct credentials, the user is taken to the
 Order Screen where they can order several items and are shown the price based 
 on their selections. The prices are updated whenever a change is made.
 
-![Ordering](Pictures/Ordering.JPG)
+![Ordering](Pictures/Ordering.PNG)
 
 After selecting items, they can click the view receipt button to view the 
 totals of the items purchased
 
-![Receipt](Pictures/Receipt.JPG)
+![Receipt](Pictures/Receipt.PNG)
 
 The navigation bar has options to take you to a landing page or change profile
 information:
 
-![ProfileInfo](Pictures/ProfileInfo.JPG)
+![ProfileInfo](Pictures/ProfileInfo.PNG)
 
-![ChangePassword](Pictures/ChangePassword.JPG)
+![ChangePassword](Pictures/ChangePassword.PNG)
 
 There is also a navigation menu item to log out of the application which takes you
 to a screen that confirms logout and has a button to return to the login screen:
 
-![Logout](Pictures/Logout.JPG)
+![Logout](Pictures/Logout.PNG)
 
 ### Lessons Learned
 
