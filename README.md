@@ -17,7 +17,7 @@ that changes every time the page is refreshed.
 
 When the app starts up, the user is prompted to enter their credentials:
 
-![Login](Pictures/Login.JPG)
+![Login](Pictures/Login.PNG)
 
 After logging in with the correct credentials, the user is taken to the 
 Order Screen where they can order several items and are shown the price based 
